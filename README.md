@@ -1,11 +1,9 @@
-# Docker image for LaTeX
+# Docker image AtCoder JAVA
 
 ## Usage
 
-LaTeX 実行用 docker image です。
-
-この image は[下川研用LaTeXテンプレート](https://github.com/smkwlab/latex-environment)用 
-devcontainer として作成されています。
+Java で AtCoder に参加するためのコンテナイメージです。
+このイメージは[AtCoder Java](https://github.com/smkwlab/atcoder-java)用に使うことを念頭に開発されています。
 
 ## Author
 
@@ -18,9 +16,5 @@ MIT
 ## Pull Image
 
 ```bash
-docker pull ghcr.io/smkwlab/latex-image:latest
+docker pull ghcr.io/smkwlab/atcoder-java-container:latest
 ```
-
-## About 
-
-* このイメージは当初 https://github.com/being24/latex-docker を基にして開発されました。
